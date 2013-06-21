@@ -3,7 +3,7 @@
 
 Summary:      A replication and load balancing plugin for mysqlnd
 Name:         php54-pecl-mysqlnd-ms
-Version:        1.5.1
+Version:        1.5.2
 Release:      1.ius%{?dist}
 
 License:      PHP
@@ -186,6 +186,9 @@ ln -sf %{php_ztsextdir}/json.so modules/
 
 
 %changelog
+* Fri Jun 21 2013 Ben Harper <ben.harper@rackspace.com> - 1.5.2-1.ius
+- Latest sources from upstream
+
 * Thu Jun 20 2013 Ben Harper <ben.harper@rackspace.com> - 1.5.1-1.ius
 - Latest sources from upstream
 
